@@ -1,20 +1,7 @@
 Script para criação do BD
 
-  //Criação de banco de dados 
-  
-CREATE DATABASE locadora;
-USE locadora;
-
-  //Criação de tabela
-  
-CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    senha VARCHAR(255) NOT NULL,
-);
-
   //Cadastro de Usuários
-  CREATE TABLE usuarios (
+  CREATE TABLE cadastrousuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     cpf VARCHAR(14) NOT NULL,
